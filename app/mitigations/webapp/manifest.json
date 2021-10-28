@@ -20,7 +20,19 @@
 					"localUri": "localService/metadata.xml"
 				}
 			}
-		}
+		},
+		"crossNavigation": {
+            "inbounds": {
+              "Risks-display": {
+                "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+                },
+                "semanticObject": "Risks",
+                "action": "display"
+              }
+            }
+        }
 	},
 
 	"sap.ui": {
